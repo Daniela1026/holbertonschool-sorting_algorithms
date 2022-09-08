@@ -27,5 +27,9 @@ int main(void);
 void insertion_sort_list(listint_t **list);
 void sorts_array(int *a, int *b);
 void selection_sort(int *array, size_t size);
+void _swap(int *a, int *b);
+int _split(int *arr, int min, int last, size_t size);
+void quick_sort_array(int *arr, int min, int last, size_t size);
+void quick_sort(int *array, size_t size);
 
 #endif
